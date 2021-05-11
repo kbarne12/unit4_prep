@@ -1,0 +1,40 @@
+body {
+  background-color: cornflowerblue;
+}
+
+center {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background: #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #000;
+  box-shadow: 0 0 5px #ccc;
+  border: 0.1mm solid #fff;
+}
+.btn:hover {
+  background: #686869;
+  text-decoration: none;
+  color: #fff;
+  border: 0.1mm solid #ccc;
+}
+
+.btn-delete {
+  background: rgb(255, 0, 0);
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #000;
+  box-shadow: 0 0 5px #ccc;
+  border: 0.1mm solid #fff;
+}
+.btn:hover {
+  background: #7e0101;
+  text-decoration: none;
+  color: #fff;
+  border: 0.1mm solid #ccc;
+}
